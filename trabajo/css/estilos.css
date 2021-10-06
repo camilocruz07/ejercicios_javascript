@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-image: radial-gradient(circle at 118.3% 31.7%, #ffff56 0, #ffff5b 7.14%, #f6ff61 14.29%, #daff6a 21.43%, #bcff72 28.57%, #9cff7b 35.71%, #7aff83 42.86%, #53f289 50%, #15e48e 57.14%, #00d894 64.29%, #00ce9a 71.43%, #00c5a1 78.57%, #00bea8 85.71%, #00b8b0 92.86%, #00b4b9 100%);
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: 'Satisfy', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido_a{
+    border: 0px solid red;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px 25px;
+    background-color: #00b4b9;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+
+a:hover{
+    background-color: #28d461;
+}
+
+.identi{
+    background-color: #28d461;
+}
+
+.identi:hover{
+    background-color: #00b4b9;
+}
+
+.barra{
+    width: 20%;
+}
+
+.a{
+    border: 1px solid rgb(2, 36, 87);
+}
+
+/*PARALELOGRAMO .I.*/
+.section{
+    border: 0px solid red;
+    height: 160px;
+}
+
+article{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido_form{
+    border: 0px solid red;
+    width: 80%;
+}
+
+.padding{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(182, 83%, 77%);
+}
+
+input{
+    width: 27%;
+    height: 40px;
+    border:none;
+    border: 1px solid rgb(78, 75, 75);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+}
+
+input:hover{
+    border: 1px solid rgb(28, 82, 197);
+}
+
+.boton_enviar{
+    background-color: #00b4b9;
+    transition: all .5s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.boton_enviar:hover{
+    background-color: #28d461;
+}
+
+.resultado{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

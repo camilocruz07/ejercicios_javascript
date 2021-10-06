@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <p class="titulo"> area de un pentagono </p>
+        <section class="section"> 
+            <div class="contenido_a">
+                <a href="paralelogramo.html" class="a"> calcular el area de un paralelogramo  </a>
+                <a href="pentagono.html"class="a" > calcular el area de un pentagono  </a>
+                <a href="rectangulo.html" class="a  identi"> calcular el area de un rectangulo  </a>
+            </div>
+        </section>
+    </header>
+    
+
+    <article>
+        <div class="contenido_form padding">
+
+            <form onsubmit="return calcular_rectangulo()">
+                <input type="text" id="base" placeholder="ingrese la base" >
+                <input type="text" id="altura" placeholder="ingrese la altura">
+                <input type="submit" value="calcular el area" class="boton_enviar">
+                
+
+            </form>
+            <div class="caja1">
+                <p id="resultado" class="resultado">  </p>
+            </div>
+        </div>
+    </article>
+
+    <script>
+        function calcular_rectangulo(){
+            let rectangulo=document.getElementById("resultado");
+            let base=parseInt(document.getElementById("base").value);
+            let altura=parseInt(document.getElementById("altura").value);
+            let resultado= base * altura;
+            rectangulo.innerHTML +="El area del rectangulo es: "+  resultado + "<br>"  + "<br>"; 
+            
+            return false; 
+        }
+    </script>
+   
+</body>
+</html> 
